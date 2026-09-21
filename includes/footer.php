@@ -44,13 +44,29 @@
 
                     <div class="footer-social">
 
-                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="https://www.facebook.com/bdadyslexia" 
+                            target="_blank" 
+                            rel="noopener noreferrer">
+                            <i class="bi bi-facebook"></i>
+                        </a>
 
-                        <a href="#"><i class="bi bi-instagram"></i></a>
+                        <a href="https://www.instagram.com/bdadyslexia/" 
+                            target="_blank" 
+                            rel="noopener noreferrer">
+                            <i class="bi bi-instagram"></i>
+                        </a>
 
-                        <a href="#"><i class="bi bi-linkedin"></i></a>
+                        <a href="https://www.linkedin.com/company/british-dyslexia-association/" 
+                            target="_blank" 
+                            rel="noopener noreferrer">
+                            <i class="bi bi-linkedin"></i>
+                        </a>
 
-                        <a href="#"><i class="bi bi-youtube"></i></a>
+                        <a href="https://www.youtube.com/@bdadyslexia" 
+                            target="_blank" 
+                            rel="noopener noreferrer">
+                            <i class="bi bi-youtube"></i>
+                        </a>
 
                     </div>
 
@@ -64,13 +80,13 @@
 
                     <ul>
 
-                        <li><a href="#">Home</a></li>
+                        <li><a href="index.php">Home</a></li>
 
-                        <li><a href="#">About</a></li>
+                        <li><a href="about.php">About</a></li>
 
-                        <li><a href="#">Screening</a></li>
+                        <li><a href="screening.php">Screening</a></li>
 
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="contact.php">Contact</a></li>
 
                     </ul>
 
@@ -84,13 +100,13 @@
 
                     <ul>
 
-                        <li><a href="#">Parent Guide</a></li>
+                        <li><a href="parent-guide.php">Parent Guide</a></li>
 
-                        <li><a href="#">Special Educators</a></li>
+                        <li><a href="special-educator.php">Special Educators</a></li>
 
-                        <li><a href="#">FAQ</a></li>
+                        <li><a href="faq.php">FAQ</a></li>
 
-                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="privacy-policy.php">Privacy Policy</a></li>
 
                     </ul>
 
