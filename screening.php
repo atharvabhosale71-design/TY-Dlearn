@@ -114,20 +114,7 @@ $history = mysqli_stmt_get_result($history_stmt);
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>DLearn Screening</title>
-<style>
-*{box-sizing:border-box}
-body{font-family:Arial,sans-serif;background:#f3f6fc;color:#24304d;margin:0}
-header{background:#4056a1;color:white;padding:18px 6%}
-header a{color:white}
-main{max-width:850px;margin:25px auto;padding:16px}
-.card{background:white;padding:24px;border-radius:12px;margin-bottom:20px;box-shadow:0 3px 12px #0001}
-.question{padding:15px 0;border-bottom:1px solid #e5e7eb}
-label{display:block;margin:9px 0}
-select,button{padding:12px;border-radius:6px}
-select{width:100%;border:1px solid #ccc;margin:10px 0 20px}
-button{background:#4056a1;color:white;border:0;cursor:pointer;width:100%;margin-top:20px}
-.notice{background:#eef3ff;padding:12px;border-radius:6px}
-</style>
+<link rel="stylesheet" href="assets/css/screening.css">
 </head>
 <body>
 <header>

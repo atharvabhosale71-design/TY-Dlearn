@@ -1,10 +1,10 @@
 
 <?php
-$host = "127.0.0.1";
+$host = "localhost";
 $user = "root";
 $password = "";
 $database = "dlearn";
-$port = 3307;
+$port = 3306;
 
 $conn = mysqli_connect(
     $host,
