@@ -1,0 +1,121 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f3f6fc;
+    color: #24304d;
+    margin: 0;
+}
+
+header {
+    background: #4056a1;
+    color: white;
+    padding: 20px 6%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+header h2 {
+    margin: 0;
+}
+
+.header-links {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    flex-wrap: wrap;
+}
+
+header a {
+    color: white;
+}
+
+main {
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 0 18px;
+}
+
+.welcome,
+.card {
+    background: white;
+    padding: 24px;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px #0000000d;
+}
+
+.welcome {
+    margin-bottom: 24px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 18px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.card h3 {
+    color: #293b70;
+    margin-top: 0;
+}
+
+.card p {
+    line-height: 1.6;
+    flex: 1;
+}
+
+.card a {
+    background: #4056a1;
+    color: white;
+    text-decoration: none;
+    padding: 11px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.card a:hover {
+    background: #293b70;
+}
+
+.role {
+    background: #e9edff;
+    padding: 7px 12px;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    color: #65708a;
+}
+
+@media (max-width: 600px) {
+    header {
+        align-items: flex-start;
+    }
+
+    .header-links {
+        width: 100%;
+    }
+
+    main {
+        margin-top: 20px;
+    }
+
+    .welcome,
+    .card {
+        padding: 18px;
+    }
+}

@@ -1,3 +1,4 @@
+
 <nav class="navbar navbar-expand-lg custom-navbar sticky-top">
     <div class="container">
 
@@ -8,37 +9,36 @@
 
         <button class="navbar-toggler" type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#navbarNav">
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarNav">
 
             <ul class="navbar-nav mx-auto">
-
                 <li class="nav-item">
                     <a class="nav-link" href="index.php">Home</a>
                 </li>
-
                 <li class="nav-item">
                     <a class="nav-link" href="about.php">About</a>
                 </li>
-
                 <li class="nav-item">
                     <a class="nav-link" href="faq.php">FAQ</a>
                 </li>
-
                 <li class="nav-item">
                     <a class="nav-link" href="contact.php">Contact</a>
                 </li>
-
             </ul>
 
-            <a href="#" class="btn btn-orange">
-                Start Screening
-            </a>
+            <div class="navbar-actions d-flex align-items-center gap-2">
+                <a href="login.php" class="btn btn-login">Login</a>
+                <a href="register.php" class="btn btn-register">Register</a>
+                <a href="login.php" class="btn btn-orange">Start Screening</a>
+            </div>
 
         </div>
-
     </div>
 </nav>

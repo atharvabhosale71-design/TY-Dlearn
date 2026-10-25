@@ -24,11 +24,11 @@
 
                 <div class="hero-buttons">
 
-                    <a href="#" class="btn btn-orange">
+                    <a href="login.php" class="btn btn-orange">
                         Start Screening
                     </a>
 
-                    <a href="#" class="btn btn-outline-orange">
+                    <a href="About" class="btn btn-outline-orange">
                         Learn More
                     </a>
 
